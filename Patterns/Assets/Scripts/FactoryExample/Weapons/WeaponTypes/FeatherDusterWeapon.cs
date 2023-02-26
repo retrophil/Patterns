@@ -1,7 +1,7 @@
+using FactoryExample.Weapons.Base;
 using UnityEngine;
-using Weapons.Base;
 
-namespace Weapons.WeaponTypes
+namespace FactoryExample.Weapons.WeaponTypes
 {
     public class FeatherDusterWeapon : Weapon
     {

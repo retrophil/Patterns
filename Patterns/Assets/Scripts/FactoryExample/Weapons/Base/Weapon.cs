@@ -1,4 +1,4 @@
-namespace Weapons.Base
+namespace FactoryExample.Weapons.Base
 {
     public abstract class Weapon
     {

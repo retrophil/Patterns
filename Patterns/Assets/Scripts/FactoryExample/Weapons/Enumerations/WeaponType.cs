@@ -1,4 +1,4 @@
-namespace Weapons.Enumerations
+namespace FactoryExample.Weapons.Enumerations
 {
     public enum WeaponType
     {

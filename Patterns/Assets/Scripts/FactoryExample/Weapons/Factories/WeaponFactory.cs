@@ -1,9 +1,9 @@
 using System;
-using Weapons.Base;
-using Weapons.Enumerations;
-using Weapons.WeaponTypes;
+using FactoryExample.Weapons.Base;
+using FactoryExample.Weapons.Enumerations;
+using FactoryExample.Weapons.WeaponTypes;
 
-namespace Weapons.Factories
+namespace FactoryExample.Weapons.Factories
 {
     public class WeaponFactory
     {

@@ -228,7 +228,7 @@ GameObject:
   - component: {fileID: 865632050}
   - component: {fileID: 865632049}
   m_Layer: 0
-  m_Name: Make Weapon (Factory)
+  m_Name: Weapon Attack Type (Factory)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -246,6 +246,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6d0828ca47c3ac4bb17cab7fee27e27, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  weaponAttackType: 1
 --- !u!4 &865632050
 Transform:
   m_ObjectHideFlags: 0
