@@ -1,13 +1,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace BuilderExample
+namespace BuilderExample.Base
 {
     public class Burger
     {
         public string Size { get; set; }
         public List<string> Ingredients { get; set; }
-    
+
         public Burger(string size, List<string> ingredients)
         {
             Size = size;

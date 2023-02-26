@@ -1,6 +1,7 @@
 using System.Collections.Generic;
+using BuilderExample.Base;
 
-namespace BuilderExample
+namespace BuilderExample.Builder
 {
     public interface IBurgerBuilder
     {
