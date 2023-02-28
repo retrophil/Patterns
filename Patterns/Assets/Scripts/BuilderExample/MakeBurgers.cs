@@ -3,13 +3,12 @@ using BuilderExample.Builder;
 using BuilderExample.Director;
 using BuilderExample.Enumerations;
 using UnityEngine;
-using UnityEngine.Serialization;
 
 namespace BuilderExample
 {
     public class MakeBurgers : MonoBehaviour
     {
-        [FormerlySerializedAs("burgerOrder")] [FormerlySerializedAs("burgerType")] [SerializeField] private BurgerType burgerOrderToKitchen;
+        [SerializeField] private BurgerType burgerOrderToKitchen;
         public void Start()
         {
             PickBurger(burgerOrderToKitchen);

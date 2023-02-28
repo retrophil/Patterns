@@ -1,5 +1,4 @@
 using System.Collections.Generic;
-using UnityEngine;
 
 namespace BuilderExample.Base
 {
@@ -12,11 +11,6 @@ namespace BuilderExample.Base
         {
             Size = size;
             Ingredients = ingredients;
-        }
-
-        public void Display()
-        {
-            Debug.Log($"BurgerSize: {Size}, Ingredients: {string.Join(", ", Ingredients)}");
         }
     }
 }
