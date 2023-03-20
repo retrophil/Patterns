@@ -1,25 +1,20 @@
-using System.Collections.Generic;
-using BuilderExample.Base;
+using BuilderExample.Builder.Burgers;
+using BuilderExample.Factories;
 
 namespace BuilderExample.Builder
 {
-    public class BurgerBuilder : IBurgerBuilder
+    public class BurgerBuilder
     {
-        private Burger _burger = new Burger("", new List<string>());
+        private BurgerFactory _burgerFactory;
 
-        public void SetBurgerSize(string size)
+        public BurgerBuilder(BurgerFactory burgerFactory)
         {
-            _burger.Size = size;
+            _burgerFactory = burgerFactory;
         }
 
-        public void AddIngredients(List<string> ingredients)
+        public Burger BuildBurger()
         {
-            _burger.Ingredients = ingredients;
-        }
-
-        public Burger GetBurger()
-        {
-            return _burger;
+            return _burgerFactory.CookBurger();
         }
     }
 }
